@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Avenir", sans-serif;
+  background-color: rgb(211, 234, 242);
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+  margin-top: 200px;
+  font-size: 60px;
+}
+
+.main-container {
+  height: 350px;
+  width: 400px;
+  /* background-color: aqua; */
+}
+
+#inputForList {
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  vertical-align: middle;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+  margin-right: 20px;
+}
+
+#addlist {
+  height: 50px;
+  width: 80px;
+  vertical-align: middle;
+  border: 2px solid orangered;
+  border-radius: 10px;
+  color: white;
+  background-color: orangered;
+  cursor: pointer;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+#addlist:hover {
+  border: 2px solid black;
+}
+
+#addlist:active {
+  font-size: 12px;
+}
+
+.todotask {
+  margin-top: 25px;
+  height: 50px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+  font-size: 30px;
+}
+
+.dustbin {
+  height: 30px;
+  position: absolute;
+  top: 8px;
+  left: 260px;
+}
+
+.dustbin:active {
+  height: 28px;
+}
+
+.dustbin:hover {
+  cursor: pointer;
+}
